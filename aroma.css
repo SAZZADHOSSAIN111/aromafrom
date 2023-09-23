@@ -1,7 +1,7 @@
 *{
     box-sizing: border-box;
-    margin: 0%;
-    padding: 0%;
+    margin: 0px;
+    padding: 0px;
 }
 
 body{
@@ -20,6 +20,131 @@ body{
     transform: translate(-50%, -50%);
 }
 
+.icon{
+   margin-left: 20px;
+   margin-top: 20px;
+   opacity: 60%;
+}
+
+.leftcontent{
+    margin-left: 50px;
+    margin-top: 50px;
+}
+
+.We{
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+
+.aroma{
+    color: black;
+}
+
+.pera{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-top: 20px;
+}
+
+.daddyform{
+    margin-top: 25px;
+}
+
+#email{
+    outline: none;
+    border: none;
+    background-color: transparent;
+    margin-top: 3px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.label{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    color: gray;
+}
+
+.form {
+    border: 2px solid rgb(202, 200, 200);
+    width: 300px;
+    padding: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
+
+.e{
+    border-top: none;
+}
+
+.checkbox{
+    width: 300px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+.Remember{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    margin-left: 5px;
+}
+
+#check{
+    border: red;
+}
+
+.Forgott{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-size: 15px;
+    position: relative;
+    text-align: right;
+    margin-left: 58px;
+}
+
+.baleft{
+    position: absolute;
+    display: flex;
+    top: 70%;
+    column-gap: 10px;
+}
+
+.bleft:hover{
+    background-color: rgba(236, 129, 29, 0.522);
+}
+
+.bleft{
+    border: 2px solid rgba(0, 0, 0, 0.705);
+    background-color: transparent;
+    padding: 7px;
+    color: rgba(0, 0, 0, 0.719);
+    border-color: gray;
+    font-size: 15px;
+    border-radius: 5px
+}
+
+.reserve>p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+    font-size: 8px;
+}
+
+.reserve{
+    position: absolute;
+    top:95%
+}
+
+.left{
+    height: auto;
+    width: auto; 
+    background-color: rgb(248, 248, 248);
+}
+
 .right{
     height: 550px;
     width: 550px;
@@ -27,13 +152,6 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: 0px, 20px;
-    
-}
-
-.left{
-    height: auto;
-    width: auto; 
-    padding: 50px;
 }
 
 .middlediv{
@@ -60,6 +178,7 @@ body{
     transform: translate(40%, -15%);
     color: #fff;
     text-shadow: 4px 4px 5px #5ddf6880;
+    font-weight: bold;
 } 
     
 ul{
@@ -106,26 +225,25 @@ ul{
     row-gap: 2px;
 }
 
-button{
+.ba{
     border: 2px solid rgba(255, 255, 255, 0.705);
     background-color: transparent;
     padding: 10px;
     color: rgba(255, 255, 255, 0.719);
     font-size: 10px;
-    border-radius: 5px;
-    opacity: ;
+    border-radius: 5px
 }
 
 .NEXT{
     width: 75px;
 }
 
-button:hover{
-   background-color: rgb(240, 135, 49);
+.ba:hover{
+   background-color: rgba(240, 135, 49, 0.623);
    transition-duration: 0.3s;
 }
 
-.buttons{
+.babuttons{
     display: flex;
     flex-direction: row;
     column-gap: 20px;
@@ -134,3 +252,26 @@ button:hover{
     left: 63%;
 
 }
+
+.bigcircle{
+    height: 80px;
+    width: 80px;
+    background-color: aqua;
+    border-radius: 50%;
+    position: absolute;
+    top: 70%;
+    left: 41%;
+}
+
+.triangle{
+    width: 0;
+    height: 0;
+    border-left: 15px solid rgb(129, 116, 243);
+    border-top: 15px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 15px solid transparent;
+    position: relative;
+    top: 32%;
+    left: 45%;
+}
+
